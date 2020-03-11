@@ -2,6 +2,7 @@
 #define POINT_H
 
 #include "Board.h"
+class Snake;
 class Board;
 class Point
 {

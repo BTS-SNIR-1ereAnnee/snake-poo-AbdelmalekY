@@ -5,7 +5,6 @@
 #include "Point.h"
 #include <ncurses.h>
 
-
 class Point;
 class Snake
 {
@@ -20,8 +19,7 @@ public:
 	~Snake();
 	void ajouterPoint(Point p);
 	void afficher();
-	
-	
+	Point changementXYPoint(Point pointPrecedent,Point pointChange);
 };
 
 #endif
